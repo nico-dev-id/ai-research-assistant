@@ -39,21 +39,19 @@ User Query
 ↓
 WebSocket Connection
 ↓
-┌─────────────────────────────────────┐
-│         LangGraph Orchestrator      
-│                                     
-│  🔍 Researcher Agent               
-│  → Web search via DuckDuckGo       
-│         ↓                          
-│  📊 Analyst Agent                  
-│  → Pattern analysis with LLaMA     
-│         ↓                          
-│  ✍️ Writer Agent                    
-│  → Structured report generation    
-└─────────────────────────────────────┘
-          ↓
+LangGraph Orchestrator
+
+🔍 Researcher Agent               
+→ Web search via DuckDuckGo       
+↓                          
+📊 Analyst Agent                  
+→ Pattern analysis with LLaMA     
+↓                          
+✍️ Writer Agent                    
+→ Structured report generation
+↓
 Real-time Progress Updates → Frontend
-          ↓
+↓
 Final Research Report
 
 ## 💡 Key Technical Highlights
