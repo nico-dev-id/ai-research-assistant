@@ -50,7 +50,8 @@ LangGraph Orchestrator
 ✍️ Writer Agent                    
 → Structured report generation
 ↓
-Real-time Progress Updates → Frontend
+Real-time Progress Updates 
+→ Frontend
 ↓
 Final Research Report
 
