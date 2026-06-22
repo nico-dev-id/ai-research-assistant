@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 
-const API = 'http://localhost:8000'
+const API = 'https://nico-dev-id-ai-research-assistant-api.hf.space'
 
 export default function Login() {
   const [email, setEmail] = useState<string>('')

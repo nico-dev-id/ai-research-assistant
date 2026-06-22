@@ -3,8 +3,8 @@
 import { useState, useEffect, useRef } from 'react'
 import Navbar from '../components/Navbar'
 
-const API = 'http://localhost:8000'
-const WS_URL = 'ws://localhost:8000'
+const API = 'https://nico-dev-id-ai-research-assistant-api.hf.space'
+const WS_URL = 'wss://nico-dev-id-ai-research-assistant-api.hf.space'
 
 interface User {
   nama: string
