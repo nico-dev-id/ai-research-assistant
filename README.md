@@ -4,7 +4,7 @@ A sophisticated research automation system using multi-agent AI orchestration. T
 
 ## 🚀 Live Demo
 
-Frontend: https://ai-research-assistant-red.vercel.app/
+Frontend: https://ai-research-assistant-red.vercel.app
 Backend API: https://nico-dev-id-ai-research-assistant-api.hf.space/
 
 ## ✨ Features
