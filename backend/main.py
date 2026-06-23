@@ -211,3 +211,15 @@ async def websocket_research(websocket: WebSocket):
         await websocket.send_json({"type": "error", "message": str(e)})
     finally:
         db.close()
+
+@app.delete("/researches/{research_id}")
+def hapus_research(research_id: int, current_user: UserModel = Depends(get_current_user), db: Session = Depends(get_db)):
+    research = db.query(ResearchModel).filter(
+        ResearchModel.id == research_id,
+        ResearchModel.user_id == current_user.id
+    ).first()
+    if not research:
+        raise HTTPException(status_code=404, detail="Riset tidak ditemukan!")
+    db.delete(research)
+    db.commit()
+    return {"pesan": "Riset berhasil dihapus!"}
